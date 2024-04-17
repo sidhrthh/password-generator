@@ -52,11 +52,12 @@ function App() {
             className="outline-none w-9/12 mt-3 p-1.5 bg-transparent border border-solid border-[#0A0F1D] bg-[#030711]"
             placeholder="Password"
             readOnly
+            ref={passwordRef}
           />
 
           <button
-          onClick={copyPasswordToClipboard}
-            className="outline-none bg-transparent text-white p-1.5 mx-3 border border-solid border-[#0A0F1D] bg-[#030711]"
+            onClick={copyPasswordToClipboard}
+            className="outline-none bg-transparent text-white p-1.5 mx-3 border border-solid border-[#0A0F1D] bg-[#0C1425]"
           >
             Copy
           </button>

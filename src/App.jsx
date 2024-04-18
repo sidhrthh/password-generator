@@ -39,8 +39,8 @@ function App() {
 
   return (
     <>
-      <div className="flex h-screen justify-center text-white font-sans">
-        <div className="w-5/12 h-2/3 border border-solid border-[#0A0F1D] bg-[#030711]">
+      <div className=" max-w-md mx-auto flex h-screen justify-center text-white font-sans md:max-w-6xl">
+        <div className="md:w-5/12 sm:w-full md:h-2/3 sm:h-1/4 border border-solid border-[#0A0F1D] bg-[#030711]">
           <h1 className="text-left mt-4 mx-6 text-lg">Password Generator</h1>
           <p className="text-left text-[#495464] mt-1.5 mx-6">
             Enter the necessary checkbox to generate the new password and copy.
